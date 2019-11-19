@@ -1,6 +1,5 @@
 var login = prompt('Whos there');
 var password;
-
 switch (login) {
 	case null: {
 		alert('Canceled');
@@ -24,7 +23,6 @@ switch (login) {
 		}
 		break;
 	}
-
 	default: {
 		alert('I dont know you');
 		break;
